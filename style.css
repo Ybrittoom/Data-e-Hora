@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+    background: linear-gradient( rgb(33, 33, 127),rgb(47, 10, 47), black);
+}
+
+.relogio, .data {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 80%; /* Aumenta a largura para 80% da tela */
+    max-width: 600px; /* Define um máximo para a largura */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.relogio {
+    background-color:  #496783;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.data {
+    background-color: #496783;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+h1, h2 {
+    margin: 0 0 10px;
+}
+
+span {
+   
+    font-size: 2em;
+}
+
+span {
+    display: block;
+    font-size: 2em;
+}
+
+.titulo {
+    padding: 10px;
+}
